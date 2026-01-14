@@ -1,0 +1,21 @@
+Source: python3-shibuya-sphinx-theme
+Section: python
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, npm
+Standards-Version: 4.7.0
+Homepage: https://shibuya.lepture.com/
+Rules-Requires-Root: no
+#Vcs-Git: https://salsa.debian.org/debian/python3-shibuya-sphinx-theme.git
+#Vcs-Browser: https://salsa.debian.org/debian/python3-shibuya-sphinx-theme
+
+Package: python3-shibuya-sphinx-theme
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${python3:Depends}, python3-sphinx
+Description: Clean, responsive, and customizable Sphinx documentation theme
+ Shibuya is a Sphinx documentation theme that is simple, responsive, and
+ customizable. It supports both light and dark modes out of the box.
+ .
+ This theme is designed to be minimal and easy to read, with a focus on
+ content.

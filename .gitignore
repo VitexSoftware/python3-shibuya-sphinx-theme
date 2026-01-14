@@ -24,3 +24,12 @@ npm-debug.log*
 uv.lock
 
 src/shibuya/theme/shibuya/static/shibuya.*
+.pybuild/cpython3_3.13_shibuya/.pydistutils.cfg
+build.log
+debian/debhelper-build-stamp
+debian/files
+debian/python3-shibuya-sphinx-theme.postinst.debhelper
+debian/python3-shibuya-sphinx-theme/
+debian/.debhelper/
+debian/python3-shibuya-sphinx-theme.prerm.debhelper
+debian/python3-shibuya-sphinx-theme.substvars

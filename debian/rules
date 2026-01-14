@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+export PYBUILD_NAME=shibuya
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_auto_build:
+	cd static && npm install && npm run build
+	dh_auto_build
+
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -rf static/node_modules
+	rm -f src/shibuya/theme/shibuya/static/shibuya.css
+	rm -f src/shibuya/theme/shibuya/static/shibuya.js
