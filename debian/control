@@ -12,7 +12,7 @@ Rules-Requires-Root: no
 Package: python3-shibuya-sphinx-theme
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, ${python3:Depends}, python3-sphinx
+Depends: ${misc:Depends}, ${python3:Depends}, python3-sphinx, python3-pygments
 Description: Clean, responsive, and customizable Sphinx documentation theme
  Shibuya is a Sphinx documentation theme that is simple, responsive, and
  customizable. It supports both light and dark modes out of the box.

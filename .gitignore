@@ -33,3 +33,4 @@ debian/python3-shibuya-sphinx-theme/
 debian/.debhelper/
 debian/python3-shibuya-sphinx-theme.prerm.debhelper
 debian/python3-shibuya-sphinx-theme.substvars
+debian/python3-shibuya-sphinx-theme.debhelper.log

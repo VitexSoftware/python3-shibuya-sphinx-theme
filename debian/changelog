@@ -1,6 +1,13 @@
-python3-shibuya-sphinx-theme (0.1.0) UNRELEASED; urgency=low
+python3-shibuya-sphinx-theme (2026.1.9) UNRELEASED; urgency=medium
 
+  * debianized
+
+ -- vitex <info@vitexsoftware.cz>  Thu, 15 Jan 2026 01:03:13 +0100
+
+python3-shibuya-sphinx-theme (0.1.0) unstable; urgency=low
+
+  [ Vítězslav Dvořák ]
   * Initial release. Closes: #nnnn
     <nnnn is the bug number of your ITP>
 
- -- Vítězslav Dvořák <info@vitexsoftware.cz>  Thu, 15 Jan 2026 00:29:09 +0100
+ -- vitex <info@vitexsoftware.cz>  Thu, 15 Jan 2026 01:03:01 +0100
