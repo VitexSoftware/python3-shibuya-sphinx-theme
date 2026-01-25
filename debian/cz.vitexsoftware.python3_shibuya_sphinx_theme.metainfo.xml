@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>cz.vitexsoftware.python3_shibuya_sphinx_theme</id>
+  <metadata_license>MIT</metadata_license>
+  <project_license>BSD-3-Clause</project_license>
+  <name>python3-shibuya-sphinx-theme</name>
+  <summary>Clean, responsive, and customizable Sphinx documentation theme</summary>
+  <description>
+    <p>
+      Shibuya is a Sphinx documentation theme that is simple, responsive, and customizable. It supports both light and dark modes out of the box. This theme is designed to be minimal and easy to read, with a focus on content.
+    </p>
+  </description>
+  <categories>
+    <category>Utility</category>
+  </categories>
+  <url type="homepage">https://github.com/VitexSoftware/python3-shibuya-sphinx-theme</url>
+  <url type="bugtracker">https://github.com/VitexSoftware/python3-shibuya-sphinx-theme/issues</url>
+  <developer id="cz.vitexsoftware">
+    <name>VitexSoftware</name>
+  </developer>
+  <content_rating type="oars-1.1"/>
+</component>
