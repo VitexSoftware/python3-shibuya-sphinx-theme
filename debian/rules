@@ -10,7 +10,7 @@ override_dh_auto_build:
 	# Old Pygments calls wrap(source, outfile) with 3 args; new Pygments uses wrap(source) with 2 args
 	python3 -c "import pygments,sys; v=tuple(int(x) for x in pygments.__version__.split('.')[:2]); print('Pygments',pygments.__version__); sys.exit(0 if v>=(2,14) else 1)" || \
 		sed -i 's/def wrap(self, source):/def wrap(self, source, outfile=None):/' \
-			$$(python3 -c "import shibuya._pygments as m; print(m.__file__)")
+			src/shibuya/_pygments.py
 	# Check if nodejs is available and version >= 18
 	if which node > /dev/null && [ $$(node -v | cut -d. -f1 | cut -dv -f2) -ge 18 ]; then \
 		echo "Node.js version $$(node -v) detected. Building static assets..."; \
