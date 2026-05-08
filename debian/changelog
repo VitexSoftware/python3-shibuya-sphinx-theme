@@ -1,3 +1,10 @@
+python3-shibuya-sphinx-theme (2026.1.9.5) UNRELEASED; urgency=medium
+
+  * Fix compatibility with docutils < 0.18 (Ubuntu Jammy)
+    - Use traverse() fallback when findall() is not available
+
+ -- vitex <info@vitexsoftware.cz>  Thu, 08 May 2026 15:15:00 +0200
+
 python3-shibuya-sphinx-theme (2026.1.9) UNRELEASED; urgency=medium
 
   * debianized
